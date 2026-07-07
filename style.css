@@ -1,0 +1,80 @@
+body {
+background-color: rgb(247, 228, 228);
+}
+.port {
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+    background-color: pink;
+}
+.buttons{
+width: 100%;
+margin-bottom: 10px;
+padding: 12px 20px;
+cursor: pointer;
+margin-bottom: 20px;
+gap: 50px;
+justify-content: center;
+margin-top: 10px;
+display: flex;
+flex-direction: row;
+}
+.buttons button {
+    border-radius: 5px;
+    background-color: rgb(245, 219, 223);
+}
+.stats {
+    background-color: pink;
+    border-radius: 5px;
+    padding :25px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    max-width: fit-content;
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    p{ 
+        
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: rgb(173, 137, 137);
+    }
+}
+.skills {
+    text-align: center;
+}
+.discription{
+    background-color: rgb(253, 201, 210);
+
+    border-radius: 10px;
+    padding :30px;
+    width: 19%;
+    text-align: center;
+    margin: auto;
+    max-width: fit-content;
+}
+html {
+scroll-behavior: smooth; /* 👈 تجعل الصعود والهبوط يظهر كأنيميشن ناعم */
+}
+
+/* تنسيق السهم ليكون دائرياً وثابتاً في الزاوية */
+.scroll-btn {
+position: fixed;
+bottom: 20px;
+right: 20px;
+background-color: #ff6f00; /* اللون البرتقالي */
+color: white;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none; /* إزالة الخط السفلي للرابط */
+font-size: 18px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+z-index: 1000; /* لضمان ظهوره فوق كل عناصر الموقع */
+}
